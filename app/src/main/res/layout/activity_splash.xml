@@ -8,8 +8,8 @@
     android:background="@color/gold">
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
         android:layout_marginTop="192dp"
         android:src="@drawable/logocemara"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,9 +21,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/let_s_start"
-        android:textColor="@color/black"
+        android:textColor="@color/deep_blue"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:fontFamily="@font/alataregular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
