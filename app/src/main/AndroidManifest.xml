@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CemaraApps">
         <activity
+            android:name=".QfamilyActivity"
+            android:exported="false" />
+        <activity
             android:name=".CalendarActivity"
             android:exported="false" />
         <activity
