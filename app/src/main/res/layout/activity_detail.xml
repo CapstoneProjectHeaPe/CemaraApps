@@ -47,10 +47,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:drawableLeft="@drawable/addmembers"
-            android:layout_marginEnd="30dp"
             android:layout_marginTop="15dp"
+            android:layout_marginEnd="30dp"
             android:backgroundTint="@color/gold"
+            android:drawableLeft="@drawable/addmembers"
             android:text="@string/add_members"
             android:textAllCaps="false"
             android:textColor="@color/black" />
