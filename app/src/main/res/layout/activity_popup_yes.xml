@@ -33,9 +33,9 @@
                 android:paddingStart="12dp"
                 android:paddingEnd="12dp"
                 android:text="@string/join_the_family"
-                android:textStyle="bold"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
 
             <LinearLayout
@@ -54,7 +54,7 @@
                     android:layout_marginTop="22dp"
                     android:text="@string/input_token"
                     android:textColor="@color/black"
-                    android:textSize="16sp"/>
+                    android:textSize="16sp" />
 
                 <EditText
                     android:id="@+id/et_inputToken"
@@ -63,10 +63,10 @@
                     android:layout_marginStart="44dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="44dp"
-                    android:ems="10"
-                    android:inputType="text"
+                    android:autofillHints=""
                     android:background="@drawable/bg_input"
-                    android:autofillHints="" />
+                    android:ems="10"
+                    android:inputType="text" />
 
                 <Button
                     android:id="@+id/btn_input"
@@ -79,7 +79,7 @@
                     android:backgroundTint="@color/gold"
                     android:text="@string/join"
                     android:textColor="@color/black"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
             </LinearLayout>
 

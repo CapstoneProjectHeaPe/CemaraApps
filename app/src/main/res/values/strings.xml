@@ -17,7 +17,6 @@
     <string name="key">Key</string>
     <string name="jonas">Jonas</string>
     <string name="create_family">Create Family</string>
-    <string name="family_name">Family Name</string>
     <string name="create">Create</string>
     <string name="join_the_family">Join the Family</string>
     <string name="input_token">Input Token</string>
@@ -36,7 +35,7 @@
     <string name="detail">Detail</string>
     <string name="bg">bg</string>
     <string name="family">family</string>
-    <string name="family_na">Family Name</string>
+    <string name="family_name">Family Name</string>
     <string name="name">Name</string>
     <string name="token">token</string>
     <string name="kode">Token</string>
