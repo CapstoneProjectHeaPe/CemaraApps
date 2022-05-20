@@ -92,6 +92,7 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
+
     companion object {
         private const val TAG = "LoginActivity"
         const val RC_SIGN_IN = 1001
