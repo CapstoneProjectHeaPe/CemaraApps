@@ -43,6 +43,7 @@
                 android:layout_marginTop="50dp"
                 android:backgroundTint="@color/gold"
                 android:text="@string/yes"
+                app:cornerRadius="12dp"
                 android:textColor="@color/black" />
 
             <Button
@@ -53,9 +54,9 @@
                 android:layout_marginTop="16dp"
                 android:backgroundTint="@color/gold"
                 android:text="@string/no"
+                app:cornerRadius="12dp"
                 android:textColor="@color/black" />
 
         </LinearLayout>
-
     </LinearLayout>
 </RelativeLayout>
