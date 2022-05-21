@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        checkUser()
 
         binding.btnLogout.setOnClickListener {
             Firebase.auth.signOut()
@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         val firebaseUser = firebaseAuth.currentUser
         if (firebaseUser == null) {
             // Not signed in, launch the Login activity
-            startActivity(Intent(this, LoginActivity::class.java))
+            startActivity(Intent(this, QfamilyActivity::class.java))
             finish()
         }
     }

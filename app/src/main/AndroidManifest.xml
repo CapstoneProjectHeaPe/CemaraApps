@@ -10,13 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CemaraApps">
         <activity
+            android:name=".RoleActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".QfamilyActivity"
             android:exported="false" />
         <activity
             android:name=".DetailActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PopupFamilyActivity"
             android:exported="false" />
         <activity
             android:name=".CalendarActivity"

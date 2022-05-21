@@ -58,7 +58,7 @@
                     android:textSize="16sp" />
 
                 <EditText
-                    android:id="@+id/et_inputToken"
+                    android:id="@+id/et_inputFamily"
                     android:layout_width="match_parent"
                     android:layout_height="42dp"
                     android:layout_marginStart="44dp"
