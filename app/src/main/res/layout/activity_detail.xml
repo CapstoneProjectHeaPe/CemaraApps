@@ -88,15 +88,16 @@
                     android:textSize="14sp" />
 
                 <TextView
+                    android:id="@+id/nameFam"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="40dp"
                     android:layout_toEndOf="@id/fam"
-                    tools:text="Fam Name"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:text="Fam Name" />
 
             </RelativeLayout>
 
@@ -127,15 +128,16 @@
                     android:textSize="14sp" />
 
                 <TextView
+                    android:id="@+id/kode"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="40dp"
                     android:layout_toEndOf="@id/ivToken"
-                    tools:text="Token"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:text="Token" />
 
             </RelativeLayout>
 
@@ -165,15 +167,16 @@
                     android:textSize="14sp" />
 
                 <TextView
+                    android:id="@+id/memberdata"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="40dp"
                     android:layout_toEndOf="@id/iv_logo"
-                    tools:text="Members"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:text="Members" />
 
             </RelativeLayout>
 
